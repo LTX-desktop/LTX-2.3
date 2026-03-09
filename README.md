@@ -2,6 +2,10 @@
 
 **LTX-2.3** is an open-source generative video architecture based on the Diffusion Transformer (DiT). The model delivers commercial-grade generation quality (on par with Google Veo 3) but without the strict limitations of closed ecosystems. The project supports both fully autonomous local inference and hybrid cloud processing.
 
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/4414adc0-086c-43de-b367-9362eeb20228" width="70%" poster=""> </video>
+</div>
+
 ---
 
 ## 🚀 Key Features

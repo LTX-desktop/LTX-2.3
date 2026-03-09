@@ -10,6 +10,16 @@
 
 ## 🚀 Key Features
 
+* **Text-to-video** generation
+* **Image-to-video** generation
+* **Audio-to-video** generation
+* **Video edit** generation (Retake)
+* **Video Editor** Interface
+* **Video Editing** Projects
+
+---
+## 🚀 Features
+
 * **Commercial-Grade Quality:** Spatiotemporal consistency, photorealism, and object physics are on par with closed proprietary models (Veo 3, Sora).
 * **Flexible Deployment (Local / Cloud):** * *Local:* Completely unlimited generation on your own hardware.
 * *Cloud:* Integrated cloud rendering for low-end PCs (queue wait times depend on server load).

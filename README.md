@@ -28,7 +28,7 @@
 * **Base Generation Parameters:** Native output of 10 seconds at 24 FPS in 1080p resolution in a single pass.
 * **4K Cloud Rendering:** Integrated upscaling and native generation in 4K. A limit of **10 generations per day** applies for cloud usage (to prevent server overload). *Note: Video editing operations (V2V, Inpainting, Motion Brush) do not consume the 4K generation quota.*
 * **Spatiotemporal Attention & $v$-prediction:** An optimized mathematical noise prediction model that minimizes visual artifacts in highly dynamic scenes.
-
+* **Fully Uncensored** 
 ---
 
 <p align="center">
@@ -66,6 +66,7 @@
 | **Limits (4K)** | Unlimited (Local) / 10 per day (Cloud) | Paid Tier |
 | **Physics Simulation Quality** | High (Custom Motion Buckets) | High |
 | **Weights Access & Fine-tuning** | Yes (LoRA, ControlNet) | No |
+| **Content Restrictions** | **None (Fully Uncensored)** | Strict safety guidelines (Censored) |
 
 ---
 

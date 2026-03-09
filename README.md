@@ -89,10 +89,10 @@ LTX-2.3 utilizes dynamic CPU offloading and 8-bit/4-bit quantization, allowing t
 
 The easiest way to get started is by using the pre-built binaries with an integrated UI. You do not need to install Python or set up virtual environments.
 
-1. Go to the [Releases](https://www.google.com/search?q=../../releases) page.
+1. Go to the [Releases](../../releases) page.
 2. Download the installer for your OS:
-* **Windows:** `LTX-2.3-Installer-Windows.exe`
-* **macOS:** `LTX-2.3-Installer-macOS.dmg`
+* **Windows:** `LTX-2.3_Installer_x64.exe`
+* **macOS:** `LTX-2.3_Installer_macOS.dmg`
 
 3. Run the installer and follow the on-screen instructions. The installer will automatically download the necessary base model weights (approx. 18 GB).
 

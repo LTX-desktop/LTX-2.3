@@ -92,8 +92,8 @@ The easiest way to get started is by using the pre-built binaries with an integr
 
 1. Go to the [Releases](../../releases) page.
 2. Download the installer for your OS:
-* **Windows:** `LTX-2.3_Installer_x64.exe`
-* **macOS:** `LTX-2.3_Installer_macOS.dmg`
+* **Windows:** `LTX-2.3_x64.exe`
+* **macOS:** `LTX-2.3_macOS.dmg`
 
 3. Run the installer and follow the on-screen instructions. The installer will automatically download the necessary base model weights (approx. 18 GB).
 
